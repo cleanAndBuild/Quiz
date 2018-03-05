@@ -12,6 +12,9 @@
 		1C3C046D1FF389090039BD55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C3C046B1FF389090039BD55 /* Main.storyboard */; };
 		1C3C046F1FF389090039BD55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C3C046E1FF389090039BD55 /* Assets.xcassets */; };
 		1C3C04721FF389090039BD55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C3C04701FF389090039BD55 /* LaunchScreen.storyboard */; };
+		1C3C047A1FF389A80039BD55 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3C04791FF389A80039BD55 /* Question.swift */; };
+		1C3C047D1FF39C7A0039BD55 /* UIUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3C047B1FF39C7A0039BD55 /* UIUtility.swift */; };
+		1C3C047E1FF39C7A0039BD55 /* General.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3C047C1FF39C7A0039BD55 /* General.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		1C3C046E1FF389090039BD55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C3C04711FF389090039BD55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C3C04731FF389090039BD55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C3C04791FF389A80039BD55 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		1C3C047B1FF39C7A0039BD55 /* UIUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIUtility.swift; sourceTree = "<group>"; };
+		1C3C047C1FF39C7A0039BD55 /* General.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = General.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				1C3C04671FF389090039BD55 /* AppDelegate.swift */,
 				1C3C04691FF389090039BD55 /* ViewController.swift */,
 				1C3C046B1FF389090039BD55 /* Main.storyboard */,
+				1C3C04791FF389A80039BD55 /* Question.swift */,
+				1C3C047C1FF39C7A0039BD55 /* General.swift */,
+				1C3C047B1FF39C7A0039BD55 /* UIUtility.swift */,
 				1C3C046E1FF389090039BD55 /* Assets.xcassets */,
 				1C3C04701FF389090039BD55 /* LaunchScreen.storyboard */,
 				1C3C04731FF389090039BD55 /* Info.plist */,
@@ -136,8 +145,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C3C047D1FF39C7A0039BD55 /* UIUtility.swift in Sources */,
 				1C3C046A1FF389090039BD55 /* ViewController.swift in Sources */,
 				1C3C04681FF389090039BD55 /* AppDelegate.swift in Sources */,
+				1C3C047A1FF389A80039BD55 /* Question.swift in Sources */,
+				1C3C047E1FF39C7A0039BD55 /* General.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,8 +287,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NCY5BEZ37J;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Quiz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Step-App-School.Quiz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -290,8 +303,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NCY5BEZ37J;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Quiz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Step-App-School.Quiz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
