@@ -33,11 +33,6 @@ class ViewController: UIViewController {
         
         setQuestionToScreen()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
     
     //問題を画面にセットする
     func setQuestionToScreen() {
