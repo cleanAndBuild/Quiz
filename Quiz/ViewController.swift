@@ -80,9 +80,5 @@ class ViewController: UIViewController {
             self.setQuestionToScreen()
         }
     }
-    
-    
-    
-
 }
 
