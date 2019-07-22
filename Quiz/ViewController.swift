@@ -47,9 +47,9 @@ class ViewController: UIViewController {
         
         tvQuestion.text = q.question
         
-        buttonChoices01.setTitle(q.choices[0], for:UIControlState.normal)
-        buttonChoices02.setTitle(q.choices[1], for:UIControlState.normal)
-        buttonChoices03.setTitle(q.choices[2], for:UIControlState.normal)
+        buttonChoices01.setTitle(q.choices[0], for:UIControl.State.normal)
+        buttonChoices02.setTitle(q.choices[1], for:UIControl.State.normal)
+        buttonChoices03.setTitle(q.choices[2], for:UIControl.State.normal)
         
     }
     
